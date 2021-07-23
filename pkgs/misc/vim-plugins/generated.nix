@@ -2374,6 +2374,18 @@ final: prev:
     meta.homepage = "https://github.com/JuliaEditorSupport/julia-vim/";
   };
 
+  kommentary = buildVimPluginFrom2Nix {
+    pname = "kommentary";
+    version = "2021-07-15";
+    src = fetchFromGitHub {
+      owner = "b3nj5m1n";
+      repo = "kommentary";
+      rev = "0f8e910156b8ea92690ec3c85808cdba04007ed0";
+      sha256 = "1nhn3va9gcnsdir5lx66sqv3q47kmpyb9wl64d8vfdandkh922mg";
+    };
+    meta.homepage = "https://github.com/b3nj5m1n/kommentary/";
+  };
+
   kotlin-vim = buildVimPluginFrom2Nix {
     pname = "kotlin-vim";
     version = "2021-07-03";

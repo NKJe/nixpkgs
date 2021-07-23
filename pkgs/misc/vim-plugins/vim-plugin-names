@@ -33,6 +33,7 @@ artur-shaik/vim-javacomplete2
 autozimu/LanguageClient-neovim
 axelf4/vim-strip-trailing-whitespace
 ayu-theme/ayu-vim
+b3nj5m1n/kommentary@main
 bakpakin/fennel.vim
 bazelbuild/vim-bazel
 bbchung/clighter8
@@ -645,8 +646,8 @@ steelsojka/completion-buffers
 steelsojka/pears.nvim
 stefandtw/quickfix-reflector.vim
 stephpy/vim-yaml
-stsewd/fzf-checkout.vim
 stevearc/aerial.nvim
+stsewd/fzf-checkout.vim
 sunaku/vim-dasht
 sunjon/Shade.nvim
 svermeulen/vim-subversive
