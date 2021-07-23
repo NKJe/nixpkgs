@@ -257,6 +257,7 @@ jnurmine/zenburn
 jonbri/vim-colorstepper
 jonsmithers/vim-html-template-literals
 joonty/vim-xdebug
+JoosepAlviste/nvim-ts-context-commentstring@main
 josa42/coc-lua
 josa42/vim-lightline-coc
 jose-elias-alvarez/null-ls.nvim@main
@@ -645,8 +646,8 @@ steelsojka/completion-buffers
 steelsojka/pears.nvim
 stefandtw/quickfix-reflector.vim
 stephpy/vim-yaml
-stsewd/fzf-checkout.vim
 stevearc/aerial.nvim
+stsewd/fzf-checkout.vim
 sunaku/vim-dasht
 sunjon/Shade.nvim
 svermeulen/vim-subversive

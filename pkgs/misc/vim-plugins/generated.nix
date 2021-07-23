@@ -3874,6 +3874,18 @@ final: prev:
     meta.homepage = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/";
   };
 
+  nvim-ts-context-commentstring = buildVimPluginFrom2Nix {
+    pname = "nvim-ts-context-commentstring";
+    version = "2021-07-06";
+    src = fetchFromGitHub {
+      owner = "JoosepAlviste";
+      repo = "nvim-ts-context-commentstring";
+      rev = "a38c22022fe0ae8e8aae1ba9294a33b903eef409";
+      sha256 = "0fqr68360fmfygirr65iapf9fp5ganvn69gw3p3k1blnx17jlzbk";
+    };
+    meta.homepage = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring/";
+  };
+
   nvim-ts-rainbow = buildVimPluginFrom2Nix {
     pname = "nvim-ts-rainbow";
     version = "2021-07-23";
